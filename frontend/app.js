@@ -5,7 +5,7 @@ const isLocal =
 
 const API = isLocal
     ? "http://localhost:10000/todos"
-    : "https://todos-server-app.onrender.com/todos";
+    : "https://todo-list-application-drpj.onrender.com/todos";
         
 async function displayTask() {
 

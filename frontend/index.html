@@ -14,43 +14,31 @@
 
             <!-- LEFT FORM -->
             <div class="col-12 col-md-6 form-section d-flex align-items-center justify-content-center bg-white border-end">
-
                 <div class="w-100 px-4" style="max-width: 500px;">
-
                     <h2 class="text-center mb-4 fw-bold text-primary">
                         ToDo Today
                     </h2>
-
                     <form name="taskForm" id="taskForm">
-
                         <div class="mb-3">
                             <label class="form-label fw-semibold">ToDo Task</label>
                             <input type="text" name="task" class="form-control" placeholder="Enter your task...">
                         </div>
-
                         <div class="mb-4">
                             <label class="form-label fw-semibold">Select Time</label>
                             <input type="text" name="time" class="form-control" placeholder="12:00 PM">
                         </div>
-
                         <div class="d-flex gap-2">
                             <input type="submit" value="POST" class="btn btn-success w-50">
                             <input type="button" value="GET" onclick="getTask()" class="btn btn-primary w-50">
                         </div>
-
                     </form>
-
                 </div>
-
             </div>
 
             <!-- RIGHT TABLE -->
             <div class="col-12 col-md-6 table-section p-0 bg-white">
-
                 <div id="results" class="table-container"></div>
-
             </div>
-
         </div>
     </div>
     <script src="app.js"></script>
