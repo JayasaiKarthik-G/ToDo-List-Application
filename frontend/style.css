@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+}
+
+/* RIGHT SIDE */
+.table-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 0;
+    
+}
+
+/* SCROLL AREA */
+.table-container {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0; 
+}
+
+/* DESKTOP */
+thead th {
+    position: sticky;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    body {
+        overflow-y: auto;
+    }
+
+    .table-section {
+        height: auto;
+    }
+
+    .form-section {
+        height: 400px;
+    }
+
+    .table-container {
+        min-height: 400px;
+    }
+
+}
