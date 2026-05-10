@@ -1,9 +1,14 @@
 {
   "todos": [
     {
-      "task": "eat food",
-      "time": "01:00 pm",
+      "task": "eat breakfast",
+      "time": "09:00 am",
       "id": 1
+    },
+    {
+      "task": "do exercise",
+      "time": "11:00 am",
+      "id": 2
     }
   ]
 }
