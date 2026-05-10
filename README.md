@@ -78,7 +78,7 @@ Vercel (Frontend Hosting)
 
 🚀 How to Run Locally
 ----------------------
-1. Clone Repository: git clone https://github.com/JayasaiKarthik-G/ToDo_List_Application.git
+1. Clone Repository: git clone https://github.com/JayasaiKarthik-G/ToDo-List-Application.git
 2.  Open Project: cd ToDo_List_Application
 
 
